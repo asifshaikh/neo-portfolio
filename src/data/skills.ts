@@ -1,22 +1,22 @@
 import {
   type IconType,
-  SiAstro,
-  SiBootstrap,
   SiCss3,
   SiDocker,
   SiHtml5,
   SiJavascript,
   SiMongodb,
   SiMysql,
-  SiNextdotjs,
   SiNginx,
   SiNodedotjs,
-  SiPostgresql,
   SiReact,
-  SiRedis,
-  SiRubyonrails,
-  SiSass,
   SiTailwindcss,
+  SiPython,
+  SiFlask,
+  SiSqlite,
+  SiKubernetes,
+  SiGithubactions,
+  SiTerraform,
+  SiIcloud,
 } from '@icons-pack/react-simple-icons'
 
 const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
@@ -28,50 +28,60 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         { skill: 'css', icon: SiCss3 },
         { skill: 'javascript', icon: SiJavascript },
         { skill: 'react', icon: SiReact },
-        { skill: 'sass', icon: SiSass },
         { skill: 'tailwind', icon: SiTailwindcss },
-        { skill: 'nextjs', icon: SiNextdotjs },
-        { skill: 'astro', icon: SiAstro },
-        {
-          skill: 'bootstrap',
-          icon: SiBootstrap,
-        },
       ],
     },
     {
-      field: 'Backend',
+      field: 'Backend and Databases',
       skills: [
         {
           skill: 'nodejs',
           icon: SiNodedotjs,
         },
         {
-          skill: 'ruby on rails',
-          icon: SiRubyonrails,
+          skill: 'python',
+          icon: SiPython,
         },
         {
-          skill: 'redis',
-          icon: SiRedis,
-        },
-        {
-          skill: 'postgresql',
-          icon: SiPostgresql,
+          skill: 'flask',
+          icon: SiFlask,
         },
         {
           skill: 'mongodb',
           icon: SiMongodb,
         },
         {
+          skill: 'sqlite',
+          icon: SiSqlite,
+        },
+        {
           skill: 'mysql',
           icon: SiMysql,
         },
-        {
-          skill: 'nginx',
-          icon: SiNginx,
-        },
+      ],
+    },
+    {
+      field: 'DevOps and Cloud',
+      skills: [
         {
           skill: 'docker',
           icon: SiDocker,
+        },
+        {
+          skill: 'kubernetes',
+          icon: SiKubernetes,
+        },
+        {
+          skill: 'github actions',
+          icon: SiGithubactions,
+        },
+        {
+          skill: 'terraform',
+          icon: SiTerraform,
+        },
+        {
+          skill: 'aws',
+          icon: SiIcloud,
         },
       ],
     },
