@@ -16,7 +16,8 @@ import {
   SiKubernetes,
   SiGithubactions,
   SiTerraform,
-  SiIcloud,
+  SiAmazonaws,
+  SiGnubash,
 } from '@icons-pack/react-simple-icons'
 
 const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
@@ -81,7 +82,11 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         },
         {
           skill: 'aws',
-          icon: SiIcloud,
+          icon: SiAmazonaws,
+        },
+        {
+          skill: 'bash',
+          icon: SiGnubash,
         },
       ],
     },
