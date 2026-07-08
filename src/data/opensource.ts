@@ -3,12 +3,20 @@ const openSourceProjects: {
   url: string
 }[] = [
   {
-    name: 'Project 1',
-    url: 'https://github.com/user/project1',
+    name: 'Agno',
+    url: 'https://github.com/agno-agi/agno/pull/7663',
   },
   {
-    name: 'Project 2',
-    url: 'https://github.com/user/project2',
+    name: 'build-scripts',
+    url: 'https://github.com/ppc64le/build-scripts/pull/8274',
+  },
+  {
+    name: 'build-scripts',
+    url: 'https://github.com/ppc64le/build-scripts/pull/8357',
+  },
+  {
+    name: 'LightGBM',
+    url: 'https://github.com/lightgbm-org/LightGBM/pull/7345',
   },
 ]
 export default openSourceProjects
